@@ -125,6 +125,7 @@ img {
 .form-img img {
     width: 80%;
     margin: auto;
+    box-shadow: none;
 }
 
 .form input[type="submit"] {
