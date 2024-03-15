@@ -1,6 +1,4 @@
 * {
-    padding: 0;
-    margin: 0;
     font-size: 20px;
 }
 
@@ -13,11 +11,16 @@ h2 {
 }
 
 .Banner {
-    background: #5af;
+    background: #094;
     display: flex;
     justify-content: space-around;
+    height: 30px;
     padding: 10px 0;
     margin-bottom: 10px;
+}
+
+.Banner a {
+    color: #000;
 }
 
 .link-inf {
@@ -33,14 +36,25 @@ h2 {
 
 img {
     width: 300px;
+    box-shadow: 10px 5px 5px #000;
 }
 
 .container {
     display: flex;
+    justify-content: center;
 }
 
 .table-container {
-    margin: 70px;
+    margin: 60px;
+}
+
+/*Estilo para Acerda de*/
+.Section-About img {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    right: 50%;
+    width: 800px;
 }
 
 /*Estilos para el formulario*/
@@ -68,7 +82,7 @@ img {
     border: none;
     border-bottom: 3px solid #1c7;
     background-color: transparent;
-    color: #fff;
+    color: #000;
 }
 
 .form-input:focus {
