@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.Banner {
+    background: #5af;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.link-inf {
+    display: block;
+    padding: 10px 0;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+img {
+    width: 300px;
+}
+
+.container {
+    display: flex;
+}
+
+.table-container {
+    margin: 70px;
+}
+
+/*Estilos para el formulario*/
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 50px;
+    padding: 20px;
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+}
+
+.form-input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #1c7;
+    background-color: transparent;
+    color: #fff;
+}
+
+.form-input:focus {
+    background: linear-gradient(to bottom, transparent, #ddd);
+    outline: none;
+    border-bottom: 3px solid #5f9;
+}
+
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+.form-img {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 400px;
+    order: 2;
+}
+
+.form-img div {
+    padding: 10px;
+}
+
+.img-container {
+    margin: auto;
+    padding: 20px;
+}
+
+.img-container div {
+    background-color: #094;
+    border-radius: 50%;
+    text-align: center;
+    padding: 40px;
+}
+
+.form-img img {
+    width: 80%;
+    margin: auto;
+}
+
+.form input[type="submit"] {
+    background-color: #094;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #072;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input[type="submit"]:focus {
+    background-color: #094;
+}
+
+.form input[type="submit"]:focus {
+    background: linear-gradient(to bottom, #072, #050);
+}
